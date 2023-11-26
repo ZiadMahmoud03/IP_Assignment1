@@ -3,12 +3,22 @@ body{
 }
 
 h1{
-    text-align: center;
+    text-align: left;
     font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'inter', sans-serif;
     color: black;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+h2{
+    text-align: left;
+    font-size: 50px;
+    font-family: 'inter', sans-serif;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 
 .p{
@@ -75,16 +85,10 @@ h1{
     flex-wrap: wrap;
     margin-left: -0.5rem;
     margin-right: -0.5rem;
-}
-
-.grid-row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
     justify-content: center;
     align-items: center;
 }
+
 
 .text{
     color: white;
@@ -93,3 +97,36 @@ h1{
     margin-bottom: 1rem;
 }
 
+.imageDiv{
+    background-image: url(../Resources/ChandraX-ray/XFV8msbEKcKTCACcMzUVMd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 600px; /* Increase the width */
+    height: 400px;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.head{
+    width: 600px; /* Increase the width */
+    height: 400px;
+    display: flex;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    flex-direction: column;
+}
+
+.grid-row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+}
