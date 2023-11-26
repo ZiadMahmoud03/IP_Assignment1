@@ -1,8 +1,59 @@
 #HubbleDiv, #JamesDiv, #ChandraDiv, #SpitzerDiv, #KeplerDiv {
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 90vh;
-    width: 90vw;
-    display: flex;
+    background-attachment: fixed;
+    height: 500px;
 }
+
+h2 {
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    font-family: "inter", sans-serif;
+    font-weight: extra-bold;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Public Sans Web", sans-serif;
+
+}
+
+#HubblePrevButton, #JamesPrevButton, #ChandraPrevButton, #SpitzerPrevButton, #KeplerPrevButton {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Public Sans Web", sans-serif;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+#HubbleNextButton, #JamesNextButton, #ChandraNextButton, #SpitzerNextButton, #KeplerNextButton {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Public Sans Web", sans-serif;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    align-items: right;
+}
+
+

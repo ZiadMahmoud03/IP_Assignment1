@@ -3,7 +3,7 @@ const hubbleImages = [
   "../Resources/Hubble/_111493221_s125e012033_1.jpg",
   "../Resources/Hubble/heic0601a.jpg",
   "../Resources/Hubble/hubble-30th-veil-nebula.jpg",
-  "../Resources/Hubble/maxresdefault.jpg",
+  "../Resources/Hubble/maxresdefault.jpg"
 ];
 
 var hubbleImageIndex = 0;
@@ -12,12 +12,11 @@ var hubbleImageIndex = 0;
 
 
 const jamesWebbImages = [
-    "../Resources/James Webb/19sci-webb-pillars-01-videoSixteenByNineJumbo1600.jpg",
-    "../Resources/James Webb/1325386.jpeg",
-    "../Resources/James Webb/Carina-Nebula-Through-James-Webb-Telescope-AI-Generated-4K-Desktop-Wallpaper-jpg.webp",
-    "../Resources/James Webb/nasa-universe-james-webb-space-telescope-hd-wallpaper-preview.jpg",
-    "../Resources/James Webb/jwst-spacecraftpotentialtargetsmontageflip-1200px-4-jpg.webp",
-    "../Resources/James Webb/weic2212a.jpg"
+    "../Resources/JamesWebb/jwst_poster02.jpg",
+    "../Resources/JamesWebb/1325386.jpeg",
+    "../Resources/JamesWebb/Carina-Nebula.webp",
+    "../Resources/JamesWebb/weic2208a.jpg",
+    "../Resources/JamesWebb/weic2212a.jpg"
 ];
 
 var jamesWebbImageIndex = 0;
@@ -36,10 +35,10 @@ var spitzerImageIndex = 0;
 /*********************************************************************************/
 
 const chandraImages = [
-    "../Resources/Chandra X-ray/intro-import.jpg",
-    "../Resources/Chandra X-ray/jergmqqrnn8fmnwef2w8.webp",
-    "../Resources/Chandra X-ray/Wanjek_Winter22_02_2019Athena_MO.jpg.webp",
-    "../Resources/Chandra X-ray/XFV8msbEKcKTCACcMzUVMd.jpg"
+    "../Resources/ChandraX-ray/intro-import.jpg",
+    "../Resources/ChandraX-ray/jergmqqrnn8fmnwef2w8.webp",
+    "../Resources/ChandraX-ray/Wanjek_Winter22_02_2019Athena_MO.jpg.webp",
+    "../Resources/ChandraX-ray/XFV8msbEKcKTCACcMzUVMd.jpg"
 ];
 
 var chandraImageIndex = 0;
@@ -83,23 +82,23 @@ HubbleNextButton.addEventListener('click', () => {
 // Functions for James Webb telescope image switching
 
 
-function updateJamesBackground() {
+function updateJamesWebbBackground() {
     const imageUrl = jamesWebbImages[jamesWebbImageIndex];
     document.getElementById('JamesDiv').style.backgroundImage = `url(${imageUrl})`;
 }
 
-updateJamesBackground();
+updateJamesWebbBackground();
 
 const JamesPrevButton = document.getElementById('JamesPrevButton');
 JamesPrevButton.addEventListener('click', () => {
     jamesWebbImageIndex = (jamesWebbImageIndex - 1 + jamesWebbImages.length) % jamesWebbImages.length;
-    updateJamesBackground();
+    updateJamesWebbBackground();
 });
 
 const JamesNextButton = document.getElementById('JamesNextButton');
 JamesNextButton.addEventListener('click', () => {
     jamesWebbImageIndex = (jamesWebbImageIndex + 1) % jamesWebbImages.length;
-    updateJamesBackground();
+    updateJamesWebbBackground();
 });
 
 /*********************************************************************************/
