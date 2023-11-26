@@ -1,0 +1,95 @@
+body{
+    background-color: #fff;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imageCard1,
+.imageCard2,
+.imageCard3 {
+    width: 400px; /* Increase the width */
+    height: 600px; /* Increase the height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.imageCard1{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)),url(../Resources/JamesWebb/jwst_poster02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 2rem;
+    flex: 0 1 auto;
+    margin-right: 1rem; /* Add margin-right to create space */
+}
+
+.imageCard2{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)),url(../Resources/Hubble/hubble-30th-veil-nebula.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 2rem;
+    flex: 0 1 auto;
+    margin-right: 1rem; /* Add margin-right to create space */
+}
+
+.imageCard3{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)),url(../Resources/JamesWebb/Carina-Nebula.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 2rem;
+    flex: 0 1 auto;
+    margin-right: 1rem; /* Add margin-right to create space */
+}
+
+.grid-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+}
+

@@ -1,0 +1,36 @@
+body{
+    background-color: #fff;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+li{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.div1{
+    background-image: url(../Resources/Kepler/oFJzShZ98q95dEJNFy8HdW.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+}

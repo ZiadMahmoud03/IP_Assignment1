@@ -35,9 +35,9 @@ var spitzerImageIndex = 0;
 /*********************************************************************************/
 
 const chandraImages = [
+    "../Resources/ChandraX-ray/Wanjek_Winter22_02_2019Athena_MO.jpg.webp",
     "../Resources/ChandraX-ray/intro-import.jpg",
     "../Resources/ChandraX-ray/jergmqqrnn8fmnwef2w8.webp",
-    "../Resources/ChandraX-ray/Wanjek_Winter22_02_2019Athena_MO.jpg.webp",
     "../Resources/ChandraX-ray/XFV8msbEKcKTCACcMzUVMd.jpg"
 ];
 
