@@ -1,0 +1,27 @@
+body{
+    background-image: url(../Resources/JamesWebb/weic2212a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-weight: extra-bold;
+}
+
+section {
+    border: 3px solid #000000;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(87, 76, 76);
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 50px;
+    align-items: center;
+}
