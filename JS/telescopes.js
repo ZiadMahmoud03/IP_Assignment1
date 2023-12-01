@@ -105,71 +105,71 @@ JamesNextButton.addEventListener('click', () => {
 
 // Functions for Spitzer telescope image switching
 
-function updateSpitzerBackground() {
-    const imageUrl = spitzerImages[spitzerImageIndex];
-    document.getElementById('SpitzerDiv').style.backgroundImage = `url(${imageUrl})`;
-}
+// function updateSpitzerBackground() {
+//     const imageUrl = spitzerImages[spitzerImageIndex];
+//     document.getElementById('SpitzerDiv').style.backgroundImage = `url(${imageUrl})`;
+// }
 
-updateSpitzerBackground();
+// updateSpitzerBackground();
 
-const SpitzerPrevButton = document.getElementById('SpitzerPrevButton');
-SpitzerPrevButton.addEventListener('click', () => {
-    spitzerImageIndex = (spitzerImageIndex - 1 + spitzerImages.length) % spitzerImages.length;
-    updateSpitzerBackground();
-});
+// const SpitzerPrevButton = document.getElementById('SpitzerPrevButton');
+// SpitzerPrevButton.addEventListener('click', () => {
+//     spitzerImageIndex = (spitzerImageIndex - 1 + spitzerImages.length) % spitzerImages.length;
+//     updateSpitzerBackground();
+// });
 
-const SpitzerNextButton = document.getElementById('SpitzerNextButton');
-SpitzerNextButton.addEventListener('click', () => {
-    spitzerImageIndex = (spitzerImageIndex + 1) % spitzerImages.length;
-    updateSpitzerBackground();
-});
+// const SpitzerNextButton = document.getElementById('SpitzerNextButton');
+// SpitzerNextButton.addEventListener('click', () => {
+//     spitzerImageIndex = (spitzerImageIndex + 1) % spitzerImages.length;
+//     updateSpitzerBackground();
+// });
 
 /*********************************************************************************/
 
 // Functions for Chandra X-ray telescope image switching
 
 
-function updateChandraBackground() {
-    const imageUrl = chandraImages[chandraImageIndex];
-    document.getElementById('ChandraDiv').style.backgroundImage = `url(${imageUrl})`;
-}
+// function updateChandraBackground() {
+//     const imageUrl = chandraImages[chandraImageIndex];
+//     document.getElementById('ChandraDiv').style.backgroundImage = `url(${imageUrl})`;
+// }
 
-updateChandraBackground();
+// updateChandraBackground();
 
-const ChandraPrevButton = document.getElementById('ChandraPrevButton');
-ChandraPrevButton.addEventListener('click', () => {
-    chandraImageIndex = (chandraImageIndex - 1 + chandraImages.length) % chandraImages.length;
-    updateChandraBackground();
-});
+// const ChandraPrevButton = document.getElementById('ChandraPrevButton');
+// ChandraPrevButton.addEventListener('click', () => {
+//     chandraImageIndex = (chandraImageIndex - 1 + chandraImages.length) % chandraImages.length;
+//     updateChandraBackground();
+// });
 
-const ChandraNextButton = document.getElementById('ChandraNextButton');
-ChandraNextButton.addEventListener('click', () => {
-    chandraImageIndex = (chandraImageIndex + 1) % chandraImages.length;
-    updateChandraBackground();
-});
+// const ChandraNextButton = document.getElementById('ChandraNextButton');
+// ChandraNextButton.addEventListener('click', () => {
+//     chandraImageIndex = (chandraImageIndex + 1) % chandraImages.length;
+//     updateChandraBackground();
+// });
 
 /*********************************************************************************/
 
 // Functions for Kepler telescope image switching
 
-function updateKeplerBackground() {
-    const imageUrl = keplerImages[keplerImageIndex];
-    document.getElementById('KeplerDiv').style.backgroundImage = `url(${imageUrl})`;
-}
+// function updateKeplerBackground() {
+//     const imageUrl = keplerImages[keplerImageIndex];
+//     document.getElementById('KeplerDiv').style.backgroundImage = `url(${imageUrl})`;
+// }
 
-updateKeplerBackground();
+// updateKeplerBackground();
 
-const KeplerPrevButton = document.getElementById('KeplerPrevButton');
-KeplerPrevButton.addEventListener('click', () => {
-    keplerImageIndex = (keplerImageIndex - 1 + keplerImages.length) % keplerImages.length;
-    updateKeplerBackground();
-});
+// const KeplerPrevButton = document.getElementById('KeplerPrevButton');
+// KeplerPrevButton.addEventListener('click', () => {
+//     keplerImageIndex = (keplerImageIndex - 1 + keplerImages.length) % keplerImages.length;
+//     updateKeplerBackground();
+// });
 
-const KeplerNextButton = document.getElementById('KeplerNextButton');
-KeplerNextButton.addEventListener('click', () => {
-    keplerImageIndex = (keplerImageIndex + 1) % keplerImages.length;
-    updateKeplerBackground();
-});
+// const KeplerNextButton = document.getElementById('KeplerNextButton');
+// KeplerNextButton.addEventListener('click', () => {
+//     keplerImageIndex = (keplerImageIndex + 1) % keplerImages.length;
+//     updateKeplerBackground();
+// });
 
 /*********************************************************************************/
 

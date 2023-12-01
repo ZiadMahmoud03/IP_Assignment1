@@ -5,26 +5,84 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="../CSS/nav_bar.css">
     </head>
-    <body>
-        <header class="topnav">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <div class="dropdown">
-                <button onclick="window.location.href='telescopes.html';" class="dropbtn">Telescopes
-                <!-- <i class="fa fa-caret-down"></i> -->
-                </button>
-                <div class="dropdown-content">
-                    <a href="hubble.html">Hubble Space Telescope</a>
-                    <a href="james.html">James Webb Space Telescope</a>
-                    <a href="chandra.html">Chandra X-ray Observatory</a>
-                    <a href="spitzer.html">Spitzer Space Telescope</a>
-                    <a href="kepler.html">Kepler Space Telescope</a>
+    <body class="jamesPage">
+        <header class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                    <a href="telescopes.html">Telescopes ▾</a>
+                    <ul>
+                        <li><a href="hubble.html">Hubble Space Telescope</a></li>
+                        <li>
+                            <a href="james.html">James Webb Space Telescope ▾</a>
+                            <ul>
+                                <li><a href="media.html">Media</a></li>
+                                <li><a href="videos.html">Videos</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="facts.html">Facts</a></li>
+                    </ul>
+                </li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </header>
+        <br>
+        <br>
+        <br>
+
+        <div class="grid-row2">
+            <div class="head">
+                <h1>James Webb Space Telescope</h1>
+                <p>The James Webb Space Telescope (JWST) is a space telescope designed to conduct infrared astronomy. 
+                    Its high-resolution and high-sensitivity instruments allow it to view objects too old, distant, or faint for 
+                    the Hubble Space Telescope.[9] This enables investigations across many fields of astronomy and cosmology, such as 
+                    observation of the first stars and the formation of the first galaxies, and detailed atmospheric characterization of 
+                    potentially habitable exoplanets. Other goals include understanding the formation of stars and planets, and direct imaging
+                    of exoplanets and novas. The JWST's capabilities will enable a broad range of investigations across the fields of
+                    astronomy and cosmology.[10] One particular goal involves observing some of the most distant objects in the Universe,
+                    beyond the reach of current ground and space-based instruments. This includes the very first stars; the epoch of reionization;
+                    and the formation of the first galaxies. Another goal is understanding the formation of stars and planets.
+                </p>
+            </div>
+            <div class="imageDiv2"></div>
+        </div>
+        <div class="grid-row2">
+            <div class="imageDiv3"></div>
+            <div class="head">
+                <h1>James Webb Space Telescope</h1>
+                <p>Webb's primary mirror consists of 18 hexagonal mirror segments made of gold-plated beryllium, which together create a
+                     6.5-meter-diameter (21 ft) mirror, compared with Hubble's 2.4 m (7 ft 10 in). This gives Webb a light-collecting area 
+                     of about 25 square meters, about six times that of Hubble. Unlike Hubble, which observes in the near ultraviolet and 
+                     visible (0.1 to 0.8 μm), and near infrared (0.8–2.5 μm)[14] spectra, Webb observes a lower frequency range, from 
+                     long-wavelength visible light (red) through mid-infrared (0.6–28.3 μm). The telescope must be kept extremely cold,
+                      below 50 K (−223 °C; −370 °F), so that the infrared light emitted by the telescope itself does not interfere with 
+                      the collected light. Its five-layer sunshield protects it from warming by the Sun, Earth, and Moon.
+                </p>
+            </div>
+        </div>
+
+        <div class="bigDiv">
+            <div>
+                <h1>Jupiter's auroras</h1>
+                <div>
+                    <div class="imageDiv">
+                    </div>
+                    <div class="description">
+                        <h4>A composite image of Jupiter taken by Webb's NIRCam, showing the planet's rings and two of its moons, Amalthea and Adrastea</h4>
+                        <p>
+                            The newest release from the James Webb Space Telescope team is a pair of highly detailed images of Jupiter 
+                            that show its auroras around the poles. Both images are composites, meaning they combine multiple images 
+                            taken with the telescope's Near Infrared Camera (NIRCam) — each using a different filter — into a single, 
+                            high-definition image.                      
+                        </p>
+                    </div>
                 </div>
             </div>
-            <a href="facts.html">Facts</a>
-            <a href="extra.html">Extra</a>
-            <a class="login " href="login.html">Logout</a>
-        </header>
+        </div>
+        <br>
+        <br>
+        <br>
         <footer>
             <p>&copy; 2023 Space Telescopes and Space Facts. All rights reserved.</p>
         </footer>

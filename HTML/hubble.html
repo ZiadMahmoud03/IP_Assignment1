@@ -5,26 +5,77 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="../CSS/nav_bar.css">
     </head>
-    <body>
-        <header class="topnav">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <div class="dropdown">
-                <button onclick="window.location.href='telescopes.html';" class="dropbtn">Telescopes
-                <!-- <i class="fa fa-caret-down"></i> -->
-                </button>
-                <div class="dropdown-content">
-                    <a href="hubble.html">Hubble Space Telescope</a>
-                    <a href="james.html">James Webb Space Telescope</a>
-                    <a href="chandra.html">Chandra X-ray Observatory</a>
-                    <a href="spitzer.html">Spitzer Space Telescope</a>
-                    <a href="kepler.html">Kepler Space Telescope</a>
+    <body class="hubblePage">
+        <header class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                    <a href="telescopes.html">Telescopes ▾</a>
+                    <ul>
+                        <li><a href="hubble.html">Hubble Space Telescope</a></li>
+                        <li>
+                            <a href="james.html">James Webb Space Telescope ▾</a>
+                            <ul>
+                                <li><a href="media.html">Media</a></li>
+                                <li><a href="videos.html">Videos</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="facts.html">Facts</a></li>
+                    </ul>
+                </li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </header>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="grid-row2">
+            <div class="head">
+                <h1>Hubble Space Telescope</h1>
+                <p>The Hubble Space Telescope (often referred to as HST or Hubble) is a space telescope that was launched into low Earth 
+                    orbit in 1990 and remains in operation. It was not the first space telescope, but it is one of the largest and most 
+                    versatile, renowned both as a vital research tool and as a public relations boon for astronomy. The Hubble telescope 
+                    is named after astronomer Edwin Hubble and is one of NASA's Great Observatories. The Space Telescope Science Institute 
+                    (STScI) selects Hubble's targets and processes the resulting data, while the Goddard Space Flight Center (GSFC) controls
+                    the spacecraft.
+                </p>
+            </div>
+            <div class="imageDiv2"></div>
+        </div>
+        <div class="grid-row2">
+            <div class="imageDiv3"></div>
+            <div class="head">
+                <h1>Hubble Space Telescope</h1>
+                <p>Hubble is the only telescope designed to be maintained in space by astronauts. Five Space Shuttle missions have repaired,
+                     upgraded, and replaced systems on the telescope, including all five of the main instruments. The fifth mission was 
+                     initially canceled on safety grounds following the Columbia disaster (2003), but after NASA administrator 
+                     Michael D. Griffin approved it, the servicing mission was completed in 2009. Hubble completed 30 years of operation 
+                     in April 2020[1] and is predicted to last until 2030–2040.</p>
+            </div>
+        </div>
+
+        <div class="bigDiv">
+            <div>
+                <h1>Cosmic Reef</h1>
+                <div>
+                    <div class="imageDiv">
+                    </div>
+                    <div class="description">
+                        <h3>Nebulas NGC 2014 and NGC 2020</h3>
+                        <p>
+                            The Hubble Space Telescope has celebrated its 30th birthday by issuing an extraordinary new picture from a distant galaxy.
+                            The stunning image is of a vast star-forming region close to the Milky Way, located some 163,000 light-years away from Earth.                        
+                        </p>
+                    </div>
                 </div>
             </div>
-            <a href="facts.html">Facts</a>
-            <a href="extra.html">Extra</a>
-            <a class="login " href="login.html">Logout</a>
-        </header>
+        </div>
+        <br>
+        <br>
+        <br>
         <footer>
             <p>&copy; 2023 Space Telescopes and Space Facts. All rights reserved.</p>
         </footer>
