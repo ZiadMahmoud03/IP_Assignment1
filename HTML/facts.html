@@ -8,7 +8,8 @@
     <body class="facts">
         <header class="menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <div class="logo"></div>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li>
                     <a href="telescopes.html">Telescopes ▾</a>
@@ -24,11 +25,11 @@
                         <li><a href="facts.html">Facts</a></li>
                     </ul>
                 </li>
-                <li><a href="login.html">Logout</a></li>
+                <li><a href="index.html">Logout</a></li>
             </ul>
         </header>
         <section>
-            <h2>Space Facts</h2>
+            <h2 id="contentChange" onclick="changeContent()">Space Facts (Click on me to change the title)</h2>
             <ul>
                 <li>The Hubble Space Telescope was launched in 1990 and has provided stunning images of distant galaxies and nebulae.</li>
                 <li>The James Webb Space Telescope, set to launch in 2021, will be the most powerful space telescope ever built.</li>
@@ -48,4 +49,6 @@
         <footer>
             <p>&copy; 2023 Space Telescopes and Space Facts. All rights reserved.</p>
         </footer>
+        <script src="../JS/telescopes.js"></script>
+    </body>
 </html>

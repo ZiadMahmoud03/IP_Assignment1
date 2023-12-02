@@ -3,83 +3,75 @@
     <head>
         <title>Astronomy</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="../CSS/nav_bar.css">
-        <!-- <link rel="stylesheet" href="../CSS/home.css"> -->
+        <link rel="stylesheet" href="../CSS/login.css">
     </head>
-    <body class="home">
-        <header class="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li>
-                    <a href="telescopes.html">Telescopes ▾</a>
-                    <ul>
-                        <li><a href="hubble.html">Hubble Space Telescope</a></li>
-                        <li>
-                            <a href="james.html">James Webb Space Telescope ▾</a>
-                            <ul>
-                                <li><a href="media.html">Media</a></li>
-                                <li><a href="videos.html">Videos</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="facts.html">Facts</a></li>
-                    </ul>
-                </li>
-                <li><a href="login.html">Logout</a></li>
-            </ul>
-        </header>
-
-        <section>
-            <h2>Astronomy</h2>
-            <p id="words">Space telescopes are powerful instruments used to observe celestial objects from outside the Earth's atmosphere. They provide valuable data and images that help scientists study the universe.</p>
-        </section>
-
-        <div class="div1"> </div>
-        <div class="bigDiv">
-            <div>
-                <h1>Picture of the day</h1>
-                <div>
-                    <div class="imageDiv">
+    <body>
+        <div class="container">
+            <input type="checkbox" id="flip">
+            <div class="cover">
+                <div class="front">
+                    <img src="../Resources/JamesWebb/weic2208a.jpg" alt="">
+                    <div class="text">
+                        <span class="text-1">Every new friend is a <br> new adventure</span>
+                        <span class="text-2">Let's get connected</span>
                     </div>
-                    <div class="description">
-                        <h3>Herbig-Haro 46/47</h3>
-                        <p>
-                            The James Webb Space Telescope (JWST) team at the European Space Agency (ESA) released an image on Wednesday (June 26) offering the most detailed look yet at two actively forming young stars located 1,470 light-years from Earth in the Vela Constellation. In the image, the stars, named Herbig-Haro 46/47, are surrounded by a disk of material that "feeds" the stars as they grow for millions of years.
-                        </p>
+                </div>
+                <div class="back">
+                    <img class="backImg" src="../Resources/JamesWebb/weic2208a.jpg" alt="">
+                    <div class="text">
+                        <span class="text-1">Complete miles of journey <br> with one step</span>
+                        <span class="text-2">Let's get started</span>
                     </div>
                 </div>
             </div>
-            <div class="PopularTelescopes">
-                <div class="TelescopesList">
-                    <h1>Popular Space Telescopes</h2>
-                    <ul>
-                        <li>Hubble Space Telescope</li>
-                        <li>James Webb Space Telescope</li>
-                        <li>Chandra X-ray Observatory</li>
-                        <li>Spitzer Space Telescope</li>
-                        <li>Kepler Space Telescope</li>
-                    </ul>
-                </div>
-                <div id="TelescopesDiv">
-                    <div>
-                        <button id="TelescopesPrevButton"> < </button>
-                        <button id="TelescopesNextButton"> > </button>
+            <div class="forms">
+                <div class="form-content">
+                  <div class="login-form">
+                    <div class="title">Login</div>
+                  <form action="#" onsubmit="return false">
+                    <div class="input-boxes">
+                      <div class="input-box">
+                        <i class="fas fa-envelope"></i>
+                        <input id="loginEmail" type="email" placeholder="Enter your email" required>
+                      </div>
+                      <div class="input-box">
+                        <i class="fas fa-lock"></i>
+                        <input id="loginPassword" type="password" placeholder="Enter your password" required>
+                      </div>
+                      <!-- <div class="text"><a href="#">Forgot password?</a></div> -->
+                      <div class="button input-box">
+                        <input type="submit" value="Sumbit" onclick="loginAndRedirect()">
+                      </div>
+                      <div class="text sign-up-text">Don't have an account? <label for="flip">Sigup now</label></div>
+                    </div>
+                </form>
+              </div>
+                <div class="signup-form">
+                    <div class="title">Signup</div>
+                        <form action="#" onsubmit="return false">
+                            <div class="input-boxes">
+                                <div class="input-box">
+                                    <i class="fas fa-user"></i>
+                                    <input id="regUsername" type="text" placeholder="Enter your name" required>
+                                </div>
+                                <div class="input-box">
+                                    <i class="fas fa-envelope"></i>
+                                    <input id="regEmail" type="email" placeholder="Enter your email" required>
+                                </div>
+                                <div class="input-box">
+                                    <i class="fas fa-lock"></i>
+                                    <input id="regPassword" type="password" placeholder="Enter your password" required>
+                                </div>
+                                <div class="button input-box">
+                                    <input type="submit" value="Sumbit" onclick="registerAndRedirect()">
+                                </div>
+                                <div class="text sign-up-text">Already have an account? <label for="flip">Login now</label></div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div>
-            <p>Give us some feedback, or submit your own fun facts</p>
-            <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Leave a comment..."></textarea>
-            <div class="button input-box">
-                <input type="submit" value="Submit">
-            </div>
-        </div>
-
-        <footer>
-            <p>&copy; 2023 Space Telescopes and Space Facts. All rights reserved.</p>
-        </footer>
-        <script src="../JS/home.js"></script>
+        <script src="../JS/telescopes.js"></script>
     </body>
 </html>
