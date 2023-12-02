@@ -64,6 +64,14 @@ rgba(0, 0, 0, 0.7);
     height: 650px;
 }
 
+.slideshows #HubbleDiv {
+    background-image: url(../Resources/Hubble/_111493221_s125e012033_1.jpg);
+}
+
+.slideshows #JamesDiv {
+    background-image: url(../Resources/JamesWebb/jwst_poster02.jpg);
+}
+
 .slideshows h2 {
     color: white;
     font-size: 50px;
@@ -532,4 +540,66 @@ rgba(0, 0, 0, 0.7);
     justify-content: space-around;
     align-items: center;
     margin-top: 90px;
+}
+
+.facts .videoPlayer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.facts h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'inter', sans-serif;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.facts li{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.videosPage .videoPlayer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.media body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+}
+
+.media button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    border-radius: 12px;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.media #mediaImages{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 650px;
 }
