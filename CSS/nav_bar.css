@@ -574,32 +574,141 @@ rgba(0, 0, 0, 0.7);
     margin-top: 90px;
 }
 
-.media body {
+
+.media .mediaGrid-row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.media .mediaImageDiv1{
+    background-image: url(../Resources/Hubble/heic0601a.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 90vh;
-    width: 90vw;
+    background-attachment: scroll;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 600px; /* Increase the width */
+    height: 400px;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
 }
 
-.media button {
-    background-color: white;
-    color: black;
-    border: 2px solid #4CAF50;
-    border-radius: 12px;
-    padding: 16px 32px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.media #mediaImages{
+.media .mediaImageDiv2{
+    background-image: url(../Resources/Hubble/maxresdefault.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 600px; /* Increase the width */
+    height: 400px;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.media .mediaImageDiv3{
+    background-image: url(../Resources/JamesWebb/Carina-Nebula.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 600px; /* Increase the width */
+    height: 400px;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.media .mediaImageDiv4{
+    background-image: url(../Resources/Spitzer/Crab_Nebula.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 600px; /* Increase the width */
+    height: 400px;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.media .mediaImageDiv5{
+    background-image: url(../Resources/JamesWebb/UCFedHhDd4r29qjKmvNE3X.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 650px;
+    height: 500px;
+}
+
+.media .mediaGrid-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.media .mediaImageCard1, .mediaImageCard2, .mediaImageCard3 {
+    width: 400px; /* Increase the width */
+    height: 600px; /* Increase the height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.media .mediaImageCard1{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)),url(../Resources/ChandraX-ray/intro-import.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 2rem;
+    flex: 0 1 auto;
+    margin-right: 1rem; /* Add margin-right to create space */
+}
+
+.media .mediaImageCard2{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)),url(../Resources/Kepler/oFJzShZ98q95dEJNFy8HdW.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 2rem;
+    flex: 0 1 auto;
+    margin-right: 1rem; /* Add margin-right to create space */
+}
+
+.media .mediaImageCard3{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)),url(../Resources/JamesWebb/weic2212a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 2rem;
+    flex: 0 1 auto;
+    margin-right: 1rem; /* Add margin-right to create space */
 }
